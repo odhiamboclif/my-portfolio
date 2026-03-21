@@ -1,0 +1,40 @@
+<main id="main">
+  <section class="contact-section">
+    <div class="container">
+      <h2>Get In Touch</h2>
+      <!-- action="#" keeps the form on the same page (no backend for this lab) -->
+      <form class="contact-form" action="#" method="POST" novalidate>
+        <table>
+          <tbody>
+            <tr>
+              <td><label for="name">Full Name</label></td>
+              <td><input type="text" id="name" name="name" placeholder="Jane Doe" required></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email Address</label></td>
+              <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+              <td><label for="subject">Subject</label></td>
+              <td>
+                <select id="subject" name="subject">
+                  <option value="">Select a subject</option>
+                  <option>Collaboration</option>
+                  <option>Employment Opportunity</option>
+                  <option>General Enquiry</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="msg">Message</label></td>
+              <td><textarea id="msg" name="message" rows="5" required></textarea></td>
+            </tr>
+            <tr>
+              <td colspan="2"><button type="submit" class="btn">Send Message</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+  </section>
+</main>
