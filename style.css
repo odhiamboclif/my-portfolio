@@ -500,3 +500,40 @@ footer {
     overflow-x: auto; /* Allows the education table to scroll on small screens */
   }
 }
+/* Professional JKUAT Theme for ICS 2215 */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* The Blue Header Section */
+header, .hero {
+    background-color: #1a2a6c; /* Deep Navy Blue */
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Gold Button Style */
+.btn-gold {
+    background-color: #f1c40f; 
+    color: #1a2a6c;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Outline Button Style */
+.btn-outline {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
